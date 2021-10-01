@@ -17,7 +17,7 @@ import NotFound from './NotFound';
     }
 
     return (
-        <div className='photo-container'>
+      <div className='photo-container'>
         <ul> { photos } </ul>
       </div>
     )

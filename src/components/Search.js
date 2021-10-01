@@ -3,13 +3,13 @@ import { withRouter } from "react-router";
 
 class Search extends Component {
 
-    state = {
-        searchText: ''
-    }
+  state = {
+    searchText: ''
+  }
 
-    onSearchChange = e => {
-        this.setState( { searchText: e.target.value })
-    }
+  onSearchChange = e => {
+      this.setState({ searchText: e.target.value })
+  }
 
   handleSubmit = e => {
     e.preventDefault();
